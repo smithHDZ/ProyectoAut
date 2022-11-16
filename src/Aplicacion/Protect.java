@@ -17,7 +17,8 @@ public class Protect {
         while ((contador = entrada.readLine()) != null){
             i++;
         }
-        System.out.println("Numero de lineas " + i);
-        JOptionPane.showInputDialog("El numero de lineas son " + i );
+        System.out.println("Numero de lineas  \n" +
+                          "en el arcivo es de : "+ i);
+
     }
 }
