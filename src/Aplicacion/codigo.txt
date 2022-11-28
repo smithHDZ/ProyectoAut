@@ -1,9 +1,4 @@
-if && % || !
-.
-Hola aqui hay un if
-<
->
-+
-=
-20
-aqui no lo hay
+if ( suma > 10 && edad < 30 ) then
+a = b + C
+else
+a = b - c
