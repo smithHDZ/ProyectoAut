@@ -2,3 +2,4 @@ if ( suma > 10 && edad < 30 ) then
 a = b + C
 else
 a = b - c
+suma = 30
