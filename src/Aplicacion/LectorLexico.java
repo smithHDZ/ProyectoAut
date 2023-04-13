@@ -44,23 +44,56 @@ public class LectorLexico {
                         }catch (Exception e){
                             switch (st1){
                                 //Palabras Reservadas
-                                case "if":
+                                case "programa":
                                     tabla = tabla + st1 + ", -1, -1, " + linea + "\n";
                                     break;
-                                case "else":
+                                case "inicio":
                                     tabla = tabla + st1 + ", -2, -1, " + linea + "\n";
                                     break;
-                                case "read":
+                                case "fin":
                                     tabla = tabla + st1 + ", -3, -1, " + linea + "\n";
                                     break;
-                                case "readln":
+                                case "leer":
                                     tabla = tabla + st1 + ", -4, -1, " + linea + "\n";
                                     break;
-                                case "for":
+                                case "escribir":
                                     tabla = tabla + st1 + ", -5, -1, " + linea + "\n";
                                     break;
-                                case "then":
+                                case "si":
                                     tabla = tabla + st1 + ", -6, -1, " + linea + "\n";
+                                    break;
+                                case "sino":
+                                    tabla = tabla + st1 + ", -7, -1, " + linea + "\n";
+                                    break;
+                                case "mientras":
+                                    tabla = tabla + st1 + ", -8, -1, " + linea + "\n";
+                                    break;
+                                case "repetir":
+                                    tabla = tabla + st1 + ", -9, -1, " + linea + "\n";
+                                    break;
+                                case "hasta":
+                                    tabla = tabla + st1 + ", -10, -1, " + linea + "\n";
+                                    break;
+                                case "limpiar":
+                                    tabla = tabla + st1 + ", -11, -1, " + linea + "\n";
+                                    break;
+                                case "ejecutar":
+                                    tabla = tabla + st1 + ", -12, -1, " + linea + "\n";
+                                    break;
+                                case "posxy":
+                                    tabla = tabla + st1 + ", -13, -1, " + linea + "\n";
+                                    break;
+                                case "proc":
+                                    tabla = tabla + st1 + ", -14, -1, " + linea + "\n";
+                                    break;
+                                case "var":
+                                    tabla = tabla + st1 + ", -15, -1, " + linea + "\n";
+                                    break;
+                                case "encaso":
+                                    tabla = tabla + st1 + ", -16, -1, " + linea + "\n";
+                                    break;
+                                case "valor":
+                                    tabla = tabla + st1 + ", -17, -1, " + linea + "\n";
                                     break;
 
                                 //Operadores Aritmeticos
